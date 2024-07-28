@@ -1,0 +1,12 @@
+name: "Bank Transfer App"
+description: "You can use this app to automate Bank Transfer trades. All you need to do is plug an integration with a bank, as you would for fiat transfers, and the bot will take care of the trade process. "
+features:
+  - Authentication
+  - Webhook
+endpoints:
+  - trade-chat/post
+  - trade/get
+image: "icon.ico"
+version: "0.1.0"
+slug: bank_transfer
+app_type: "DIRECT"
