@@ -2,7 +2,7 @@ const fs = require('fs');
 const { default: usePaxful } = require("@paxful/sdk-js");
 
 // In real word application you should consider using a database to store
-// credentials
+// credentials..
 
 const credentialsStorage = {
     // private
